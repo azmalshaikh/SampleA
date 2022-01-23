@@ -1,0 +1,220 @@
+@media (min-width: 768px) {
+
+    .rowsection {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .rowsectiontwo {
+        flex: 0 0 17%;
+        max-width: 17%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .rowsection {
+        flex: 0 0 27%;
+        max-width: 27%;
+    }
+    .card__image {
+        height: 100px !important;
+    }
+}
+
+@media (max-width: 1110px) {
+    .rowsectiontwo {
+        flex: 0 0 15%;
+        max-width: 15%;
+    }
+}
+
+@media (max-width: 750px) {
+    .rowsection {
+        flex: 0 0 100%;
+        max-width: 100% !important;
+    }
+
+    .rowsectiontwo {
+        flex: 0 0 100%;
+        max-width: 100% !important;
+    }
+}
+
+.offersSection {
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rowsection, .rowsectiontwo {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    box-shadow: 0 .135rem .35rem rgba(0,0,0,.075)!important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+}
+
+.card__image {
+    width: auto;
+    height: 200px;
+    margin: auto;
+    margin-top: 0.5rem !important;
+    border-radius: 5px;
+}
+
+@media (max-width: 1350px) {
+    .card__image {
+        height: 150px ;
+    }
+
+    .card__detailsHeading {
+        font-size: 2rem !important;
+    }
+
+    .card__detailsText {
+        font-size: 0.9rem !important;
+    }
+
+    .card__imageFeatures {
+        height: 90px !important;
+    }
+
+    .card__detailsFeatures {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (max-width: 1050px) {
+    .card__detailsHeading {
+        font-size: 1.5rem !important;
+    }
+
+    .card__detailsText {
+        font-size: 0.8rem !important;
+    }
+
+    .card__detailsFeatures {
+        font-size: 1rem !important;
+    }
+
+    .card__imageFeatures {
+        height: 70px !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .card__imageFeatures {
+        height: 60px !important;
+    }
+
+    .card__detailsFeatures {
+        font-size: 0.7rem !important;
+    }
+
+    .card__details {
+        padding: 0.5rem !important;
+    }
+}
+
+@media (max-width: 750px ) {
+
+    .card__image {
+        height: 160px !important;
+    }
+
+    .card__imageFeatures {
+        height: 120px !important;
+    }
+
+    .card__detailsFeatures {
+        font-size: 1.2rem !important;
+    }
+}
+
+.card__imagedestinations {
+    width: auto;
+    height: 220px;
+    margin: auto;
+    margin-top: 0.5rem !important;
+    border-radius: 5px;
+}
+
+.card__details {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card__detailsText {
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.card__detailsHeading {
+    color: #ED1C24;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.card__detailsButtons {
+    display: flex;
+    /* align-items: center !important;
+    justify-content: center !important; */
+}
+
+.card__detailsButtons :hover {
+    color: white;
+    background-color: #ED1C24;
+    border-radius: 0.2rem;
+}
+
+.button__groups {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.button {
+    position: relative;
+    flex: 1 1 auto;
+    cursor: pointer;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    color: #ED1C24;
+    border: 1px solid #ED1C24;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card__detailsFeatures {
+    color: #ED1C24;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.card__imageFeatures {
+    width: auto;
+    height: 120px;
+    margin: auto;
+    margin-top: 0.5rem !important;
+    border-radius: 5px;
+}

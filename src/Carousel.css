@@ -1,0 +1,64 @@
+.carousel {
+    position: relative;
+}
+
+.carousel__imagesTransition{
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+.carousel__image {
+    object-fit: cover;
+    opacity: 0.8;
+    height: 500px;
+    max-width: 1400;
+    width: 100%;
+}
+
+.carousel__leftButton {
+    left: 0;
+    position: absolute !important;
+    top: 43%;
+    bottom: 0;
+    z-index: 1;
+    text-align: center;
+    transition: opacity 0.15s ease;
+    border: none;
+    background: none !important;
+}
+
+.carousel__leftButton :hover{
+    opacity: 1 !important;
+}
+
+.carousel__rightButton {
+    right: 0;
+    position: absolute !important;
+    top: 43%;
+    bottom: 0;
+    z-index: 1000;
+    text-align: center;
+    justify-content: center;
+    /* opacity: 0.6; */
+    /* transition: opacity 0.15s ease; */
+    border: none;
+    background: none !important;
+}
+
+.carousel__rightButton :hover{
+    opacity: 1 !important;
+}
+
+.carousel__rightButtonSymbol, .carousel__leftButtonSymbol {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.carousel__rightButtonSymbol {
+    padding-right: 20px;
+}
+
+.carousel__leftButtonSymbol {
+    padding-left: 20px;
+}
